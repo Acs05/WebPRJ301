@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Login Page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/loginCSS.css">
+    </head>
+    <body>
+        <div class="login-container">
+            <h1>Login</h1>
+            <form action="main">
+                <div class="input-group">
+                    Username: <input type="text" name="txtUser" value=""> <br>
+                    Password: <input type="password" name="txtPass" value=""> <br>
+                </div>
+                <div class="btn-container">
+                    <input type="submit" name="btAction" value="Submit" class="btn btn-submit"> 
+                    <input type="reset" value="Reset" class="btn btn-reset"> <br>  
+                </div>
+            </form>
+        </div>  
+        <div class="link-container">
+            Don't have an account? <a href="signUp.jsp">Sign Up</a> <br>
+            <a href="retrieveUser.jsp">Forgot password?</a>
+        </div>
+    </body>
+</html>
