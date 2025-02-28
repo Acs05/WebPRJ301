@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login Page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/loginCSS.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="login-container">
+                <h1>Login</h1>
+                <form action="main">
+
+                    <div class="input-group">
+                        Username: <input type="text" name="txtUser" value=""> 
+                        Password: <input type="password" name="txtPass" value=""> 
+                    </div>
+                    <div class="btn-container">
+                        <input type="submit" name="btAction" value="Submit" class="btn btn-submit"> 
+                        <input type="reset" value="Reset" class="btn btn-reset">  
+                    </div>
+                </form>
+            </div>  
+            <div class="link-container">
+                Don't have an account? <a href="signUp.jsp">Sign Up</a> <br>
+                <a href="retrieveUser.jsp">Forgot password?</a>
+            </div>
+        </div>    
+    </body>
+</html>
